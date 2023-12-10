@@ -1,0 +1,149 @@
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.history {
+  margin: 0;
+  width: 470px;
+}
+h1 {
+  color: hsl(210, 10%, 33%);
+  margin: 0;
+}
+h2 {
+  color: hsl(210, 10%, 33%);
+}
+p {
+  color: hsl(201, 11%, 66%);
+}
+.Download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+#ios {
+  background-color: hsl(171, 66%, 44%);
+  height: 60px;
+  width: 200px;
+  margin-right: 10px;
+  border-radius: 30px;
+}
+#mac {
+  height: 60px;
+  width: 200px;
+  margin-left: 10px;
+  border-radius: 30px;
+  background-color: hsl(233, 100%, 69%);
+}
+#mac:hover {
+  box-shadow: 0 0 10px hsl(233, 100%, 69%);
+  cursor: pointer;
+}
+#ios:hover {
+  box-shadow: 0 0 10px hsl(171, 66%, 44%);
+  cursor: pointer;
+}
+.button {
+  align-items: center;
+  color: white;
+}
+.aim {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cptr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Quick {
+  width: 330px;
+  text-align: left;
+}
+.searchScreen {
+  height: 450px;
+  width: 600px;
+  margin-left: 0;
+  margin-top: 30px;
+}
+.data {
+  margin-left: 50px;
+}
+.aval {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.workflow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.dataList {
+  margin: 0;
+  width: 350px;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.subImg {
+  margin-top: 50px;
+  width: 200px;
+  margin-left: 50px;
+}
+.offer1 {
+  width: 60%;
+}
+.offer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  height: auto;
+  margin-top: 80px;
+  background-color: hsl(202, 52%, 96%);
+}
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+}
+#logo
+{
+  width: 50px;
+  height: 50px;
+}
+.Logo
+{
+  width: 220px;
+  align-self: center;
+  margin-left: 100px;
+}
+.Logo:hover
+{
+  color:  hsl(171, 66%, 44%);
+  cursor: pointer;
+}
+.icon
+{
+  margin-right: 10px;
+}
